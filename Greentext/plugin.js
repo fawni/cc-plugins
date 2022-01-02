@@ -25,7 +25,7 @@ export default ({ persist }) => {
                             lines[line] = React.createElement("div", { className: "greentext" }, lines[line]);
                         }
                         message[text] = lines
-                    } else if (persist.ghost.quote && message[text].props?.className?.includes("blockquoteContainer")) {
+                    } else if (persist.ghost.quote && message[text]?.props?.className?.includes("blockquoteContainer")) {
                         message[text].props.className += " greentext";
                     }
                 }
