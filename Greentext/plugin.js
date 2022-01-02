@@ -16,7 +16,7 @@ export default ({ persist }) => {
             if (persist.ghost.quote == undefined) persist.store.quote = true
             uninjectCss = css();
             unpatch = after("type", msg, (_, res) => {
-                const message = res.props.children[0]
+                const message = res.props?.children[0]
                 for (const text in message) {
                     if (persist.ghost.text && typeof message[text] === "string") {
                         const lines = message[text].split("\n")
