@@ -1,6 +1,6 @@
 # [Cumcord](https://cumcord.com) Plugins
 
-cumcord plugins for discord
+plugins for the cumcord client mod
 
 ## [Greentext](https://github.com/x6r/cummies/tree/master/Greentext)
 
