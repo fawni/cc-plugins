@@ -1,6 +1,6 @@
-# Greentext
+# greentext
 
-Convert blockquotes and text preceded by \">\" to greentext.
+convert blockquotes and text preceded by \">\" to greentext.
 
 ## notes
 
