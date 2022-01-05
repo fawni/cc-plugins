@@ -1,0 +1,7 @@
+{
+  "name": "camotalker",
+  "description": "surrounds your messages with zero width unicode characters. ported from swishie's pc plugin.",
+  "author": "Swishilicous; obscurity",
+  "file": "plugin.js",
+  "license": "OSL-3.0"
+}
