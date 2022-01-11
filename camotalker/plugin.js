@@ -1,25 +1,29 @@
-import { after } from "@cumcord/patcher"
-import { findByProps } from "@cumcord/modules/webpack"
-
+let uninject
 const zwsp = ["​", "‌", "‍"]
-const sendMessage = findByProps("sendMessage")
-
-let unpatch
 
 function camo(s) {
     return s.split("").map(c => { return c + zwsp[(Math.floor(Math.random() * 3))]}).join("").slice(0, -1)
 }
 
 export default () => {
-    return {
-        onLoad() {
-            unpatch = after("sendMessage", sendMessage, (args) => {
-                if (args[1].content.startsWith("!camo")) args[1].content = camo(args[1].content.replace("!camo", ""))
-                return args
-            })
-        },
-        onUnload() {
-            unpatch()
-        }
-    }
+	return {
+		onLoad() {
+			uninject = cumcord.commands.addCommand({
+				name: "camouflag",
+				description: "surrounds your messages with zero width unicode characters",
+				args: [
+					{
+						name: "text",
+						description: "text to camouflag",
+					},
+				],
+				handler: (ctx) => {
+					return camo(ctx.args.text)
+				},
+			})
+		},
+		onUnload() {
+			uninject()
+		},
+	}
 }
