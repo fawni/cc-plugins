@@ -1,6 +1,6 @@
 {
 	"name": "greentext",
-	"description": "convert blockquotes and text preceded by \">\" to greentext.",
+	"description": "convert blockquotes and text preceded by \">\" to greentext",
 	"author": "obscurity",
 	"file": "plugin.js",
 	"license": "OSL-3.0"
