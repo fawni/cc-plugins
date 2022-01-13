@@ -27,6 +27,7 @@ export default () => {
 						let idx = Math.floor(Math.random() * Object.values(emotion).length)
 						emote = Object.values(kaomoji)[emotion][idx]
 					} else {
+						if (!kaomoji[ctx.args.emotion]) return cumcord.ui.toasts.showToast({ title: "kaomoji", content: `emotion "${ctx.args.emotion}" was not found`, duration: 3000 })
 						let emotion = kaomoji[ctx.args.emotion]
 						let idx = Math.floor(Math.random() * Object.values(emotion).length)
 						emote = emotion[idx]
