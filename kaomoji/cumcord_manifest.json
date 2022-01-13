@@ -1,6 +1,6 @@
 {
   "name": "kaomoji",
-  "description": "appends a kaomoji to your message",
+  "description": "append a kaomoji to your message",
   "author": "obscurity",
   "file": "plugin.js",
   "license": "OSL-3.0"
