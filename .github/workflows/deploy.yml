@@ -11,12 +11,15 @@ jobs:
     steps:
       - uses: actions/checkout@v2
 
-      - name: Prepare environment
+      - name: Setup node
         uses: actions/setup-node@v2
         with:
           node-version: "16"
 
-      - run: yarn global add sperm
+      - name: Install dependencies
+        run: |
+            npm install --global sperm pnpm
+            pnpm m i
 
         # Magic happens here:
         # - finds every folder in repo (which is why dist dir is hidden)
@@ -24,7 +27,7 @@ jobs:
         # - sperm build into dist directory
         # - cd into parent and repeat for every folder
         # Change this however you want but this should be good enough for simple plugins
-      - name: Build plugin(s)
+      - name: Build plugins
         run: |
           mkdir .dist
           for plugin in */
