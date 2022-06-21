@@ -2,20 +2,31 @@
 
 plugins for the [cumcord](https://cumcord.com) client mod.
 
-- ### [greentext](https://github.com/x6r/cummies/tree/master/greentext)
+## kaomoji
 
-  > convert blockquotes and text preceded by ">" to greentext.
+appends a kaomoji to your message
 
-  **[send to cumcord](https://send.cumcord.com/#https://cc.x4.pm/greentext/)** | **[add manually (copy)](https://cc.x4.pm/greentext/)**
+<a target="_blank" href="https://send.cumcord.com/#https://cc.x4.pm/kaomoji/"><img height="50" src="https://raw.githubusercontent.com/Cumcord/assets/main/buttons/cumdump_button.png" /></a>
 
-- ### [camotalker](https://github.com/x6r/cummies/tree/master/camotalker)
+## silent typing
 
-  > surround your messages with zero width unicode characters. ported from [swishie's pc plugin](https://github.com/Swishilicous/camotalker).
+disables sending typing indicators
 
-  **[send to cumcord](https://send.cumcord.com/#https://cc.x4.pm/camotalker/)** | **[add manually (copy)](https://cc.x4.pm/camotalker/)**
+<a target="_blank" href="https://send.cumcord.com/#https://cc.x4.pm/silent-typing/"><img height="50" src="https://raw.githubusercontent.com/Cumcord/assets/main/buttons/cumdump_button.png" /></a>
 
-- ### [kaomoji](https://github.com/x6r/cummies/tree/master/kaomoji)
+## camotalker
 
-  > append a kaomoji to your message.
+surrounds your messages with zero width unicode characters, ported from [swishie's pc plugin](https://github.com/Swishilicous/camotalker)
 
-  **[send to cumcord](https://send.cumcord.com/#https://cc.x4.pm/kaomoji/)** | **[add manually (copy)](https://cc.x4.pm/kaomoji/)**
+<a target="_blank" href="https://send.cumcord.com/#https://cc.x4.pm/camotalker/"><img height="50" src="https://raw.githubusercontent.com/Cumcord/assets/main/buttons/cumdump_button.png" /></a>
+
+## greentext
+
+> **Warning**\
+> obsolete, use cyn's
+
+### [cyn's greentext plugin](https://gitlab.com/Cynosphere/cumcord-plugins/-/tree/master/#greentext)
+
+converts blockquotes and text preceded by ">" to greentext
+
+<a target="_blank" href="https://send.cumcord.com/#https://cc.x4.pm/greentext/"><img height="50" src="https://raw.githubusercontent.com/Cumcord/assets/main/buttons/cumdump_button.png" /></a>

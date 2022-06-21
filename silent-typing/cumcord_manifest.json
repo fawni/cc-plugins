@@ -1,0 +1,7 @@
+{
+  "name": "silent typing",
+  "description": "disables sending typing indicators",
+  "author": "obscurity",
+  "file": "plugin.js",
+  "license": "ISC"
+}
