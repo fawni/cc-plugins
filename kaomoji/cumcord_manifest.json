@@ -3,5 +3,5 @@
   "description": "append a kaomoji to your message",
   "author": "obscurity",
   "file": "plugin.js",
-  "license": "OSL-3.0"
+  "license": "ISC"
 }
