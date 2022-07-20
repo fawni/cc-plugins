@@ -1,9 +1,7 @@
 let uninject
 const zwsp = ["​", "‌", "‍"]
 
-function camo(s) {
-    return s.split("").map(c => { return c + zwsp[(Math.floor(Math.random() * 3))]}).join("").slice(0, -1)
-}
+const camo = (s) => s.split("").map(c => { return c + zwsp[(Math.floor(Math.random() * 3))]}).join("").slice(0, -1)
 
 export default () => {
 	return {
