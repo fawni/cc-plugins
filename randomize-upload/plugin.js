@@ -1,5 +1,5 @@
 import settings from "./settings";
-import uninjectCss from "./styles.sass";
+import uninjectCss from "./style.scss";
 import { before } from "@cumcord/patcher";
 import { findByProps } from "@cumcord/modules/webpack";
 import { persist } from "@cumcord/pluginData";
