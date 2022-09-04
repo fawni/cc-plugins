@@ -1,6 +1,12 @@
 # cummies
 
-plugins for the [cumcord](https://cumcord.com) client mod.
+simple plugins for [cumcord](https://cumcord.com) 💦
+
+## randomize upload
+
+randomizes uploaded file names
+
+<a target="_blank" href="https://send.cumcord.com/#https://cc.x4.pm/randomize-upload/"><img height="50" src="https://raw.githubusercontent.com/Cumcord/assets/main/buttons/cumdump_button.png" /></a>
 
 ## kaomoji
 
