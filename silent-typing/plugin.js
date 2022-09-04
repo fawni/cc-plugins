@@ -1,1 +1,1 @@
-(function(t,r){"use strict";let n,o=r.findByProps("startTyping");var a=()=>({onLoad(){n=t.instead("startTyping",o,()=>{})},onUnload(){n()}});return a})(cumcord.patcher,cumcord.modules.webpack);
+(function(n,r){"use strict";let t,a=r.findByProps("startTyping");var c=()=>({onLoad(){t=n.instead("startTyping",a,()=>{})},onUnload(){t()}});return c})(cumcord.patcher,cumcord.modules.webpack);
