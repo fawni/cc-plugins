@@ -24,7 +24,7 @@ export default () => {
 		onLoad() {
 			unpatch = before("uploadFiles", uploadModule, (res) => {
 				let files = res[0]?.uploads;
-				for (let i = 0; i < files.length; i++) {
+				for (let i in files) {
 					let file = files[i];
 					file.filename = `${rand()}.${file.filename.slice(
 						(Math.max(0, file.filename.lastIndexOf(".")) || Infinity) + 1
