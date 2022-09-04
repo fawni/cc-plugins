@@ -26,8 +26,10 @@ export default () => {
 				let files = res[0]?.uploads;
 				for (let i = 0; i < files.length; i++) {
 					let file = files[i];
-					file.filename = `${rand()}.${file.filename.slice((Math.max(0, file.filename.lastIndexOf(".")) || Infinity) + 1)}`;
-				}
+					file.filename = `${rand()}.${file.filename.slice(
+						(Math.max(0, file.filename.lastIndexOf(".")) || Infinity) + 1
+					)}`;
+				};
 			});
 		},
 		onUnload() {
