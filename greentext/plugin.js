@@ -1,4 +1,4 @@
-import css from "./style.sass"
+import css from "./style.scss"
 import settings from "./settings"
 
 import { after } from "@cumcord/patcher"
