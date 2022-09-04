@@ -17,7 +17,7 @@ export default () => {
 				value={persist.ghost.filenameLength}
 				type="text"
 				onChange={(value) => {
-					if (!isNaN(value) && value > 0 && value <= 30)
+					if (!isNaN(value) && value >= 0 && value <= 30)
 						persist.store.filenameLength = value;
 				}}
 			/>

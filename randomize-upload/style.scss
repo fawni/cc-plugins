@@ -1,0 +1,11 @@
+// https://github.com/yellowsink/cc-plugins/blob/master/plugins/who-reacted/styles.sass
+.randomize-grid {
+    display: grid;
+    gap: 1rem;
+    grid-template-columns: auto 1fr;
+    align-items: center;
+
+    > div {
+        font-weight: bold;
+    }
+}
