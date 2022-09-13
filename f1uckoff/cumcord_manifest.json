@@ -1,0 +1,7 @@
+{
+  "name": "fuckoff",
+  "description": "voids F1 so pressing it does nothing",
+  "author": "obscurity",
+  "file": "plugin.js",
+  "license": "ISC"
+}
