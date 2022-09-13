@@ -6,19 +6,19 @@ simple plugins for [cumcord](https://cumcord.com) 💦
 
 randomizes uploaded file names
 
-<a target="_blank" href="https://send.cumcord.com/#https://cc.x4.pm/randomize-upload/"><img height="50" src="https://raw.githubusercontent.com/Cumcord/assets/main/buttons/cumdump_button.png" /></a>
+<a target="_blank" href="https://send.cumcord.com/#https://cumcordplugins.github.io/Condom/cc.x4.pm/randomize-upload"><img height="50" src="https://raw.githubusercontent.com/Cumcord/assets/main/buttons/condom_button.png" /></a>
+
+## silent typing
+
+disables sending typing indicators
+
+<a target="_blank" href="https://send.cumcord.com/#https://cumcordplugins.github.io/Condom/cc.x4.pm/silent-typing"><img height="50" src="https://raw.githubusercontent.com/Cumcord/assets/main/buttons/condom_button.png" /></a>
 
 ## kaomoji
 
 appends a kaomoji to your message
 
 <a target="_blank" href="https://send.cumcord.com/#https://cc.x4.pm/kaomoji/"><img height="50" src="https://raw.githubusercontent.com/Cumcord/assets/main/buttons/cumdump_button.png" /></a>
-
-## silent typing
-
-disables sending typing indicators
-
-<a target="_blank" href="https://send.cumcord.com/#https://cc.x4.pm/silent-typing/"><img height="50" src="https://raw.githubusercontent.com/Cumcord/assets/main/buttons/cumdump_button.png" /></a>
 
 ## camotalker
 
