@@ -1,0 +1,1 @@
+(function(){"use strict";const n=e=>{e.key=="F1"&&e.stopPropagation()};var o=()=>({onLoad(){document.addEventListener("keydown",n)},onUnload(){document.removeEventListener("keydown",n)}});return o})();
