@@ -1,0 +1,1 @@
+(function(e,c,t){"use strict";let n;function u(){n=c.before("sendMessage",t.findByProps("sendMessage"),o=>{o[1].content=o[1].content.replace(/<3+/g,d=>"\u2661".repeat(d.length-1))})}function a(){n()}return e.onLoad=u,e.onUnload=a,Object.defineProperty(e,"__esModule",{value:!0}),e})({},cumcord.patcher,cumcord.modules.webpack);

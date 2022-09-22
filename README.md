@@ -17,6 +17,8 @@ Randomizes uploaded file names
 
 </details>
 
+---
+
 ### Silent Typing
 
 Disables sending typing indicators
@@ -30,11 +32,15 @@ Disables sending typing indicators
 
 </details>
 
+---
+
 ### Kaomoji
 
 Appends a kaomoji to your message
 
 [![Send to Cumcord](./.assets/sendtocumcord.png)](https://send.cumcord.com/#https://cc.x4.pm/kaomoji/)
+
+---
 
 ### Camotalker
 
@@ -42,11 +48,15 @@ Surrounds your messages with zero width unicode characters, ported from [swishie
 
 [![Send to Cumcord](./.assets/sendtocumcord.png)](https://send.cumcord.com/#https://cc.x4.pm/camotalker/)
 
+---
+
 ### f1uckoff
 
 Voids F1 so pressing it does nothing. for quickly switching between dota2 and discord without opening up a fucking browser tab accidently
 
 [![Send to Cumcord](./.assets/sendtocumcord.png)](https://send.cumcord.com/#https://cc.x4.pm/f1uckoff/)
+
+---
 
 ### Greentext
 
