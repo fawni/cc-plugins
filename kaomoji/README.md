@@ -4,9 +4,10 @@ append a kaomoji to your message
 
 ## notes
 
-the [kaomoji list](https://github.com/x6r/cummies/blob/master/kaomoji/kaomoji.json) is taken from [davidcralph/kaomoji](https://github.com/davidcralph/kaomoji/blob/main/emotes.json)
+the [kaomoji list](./kaomoji.json) is taken from [davidcralph/kaomoji](https://github.com/davidcralph/kaomoji/blob/main/emotes.json)
 
 ## emotions
+
 - joy
 - love
 - embarrassed
